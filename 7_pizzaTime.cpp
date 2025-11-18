@@ -1,0 +1,24 @@
+// 2156A
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve() {
+    int n;
+    cin >> n;
+
+    int ans = (n - 1) / 2;
+    cout << ans << endl;
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
+    int tc;
+    cin >> tc;
+
+    while(tc--) {
+        solve();
+    }
+}
